@@ -17,6 +17,7 @@ return new class extends Migration
             $table->bigInteger('user_id')->after('id');
             $table->string('image')->after('description');
             $table->date('expiring_date')->after('description');
+            $table->tinyinteger('completed')->after('description')->default('0');
         });
     }
 
