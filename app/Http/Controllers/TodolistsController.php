@@ -104,7 +104,7 @@ class TodolistsController extends Controller
                 'image' => ['nullable', 'mimes:jpeg,png,jpg', 'max:2048']
             ]);
             
-            $file_name = '';
+            $file_name = $todo->image;
             if($request->hasFile('image')) {
                 $file_name = date('Y-m-d').'-'.$request->file('image')->getClientOriginalName();
                 $request->image->move(public_path('todo_images'), $file_name);
