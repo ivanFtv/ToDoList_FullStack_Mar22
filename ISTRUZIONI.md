@@ -1,13 +1,14 @@
 
-STEPS da seguire per installare il progetto:
+## STEPS da seguire per installare il progetto:
 
-Inserire nel progetto il file .ENV
-Scrivere nel file .ENV i dati del database (nome, user, password) rispettivi del proprio DB
+<p>Inserire nel progetto il file .ENV
+Scrivere nel file .ENV i dati del database (nome, user, password) rispettivi del proprio DB</p>
 
-Aprire il terminale nella cartella del progetto
+<p>Aprire il terminale nella cartella del progetto</p>
 
-Eseguire i seguenti comandi:
+<p>Eseguire i seguenti comandi:
 
 -> Composer Install
 -> NPM Install
 -> NPM Run Dev
+</p>
